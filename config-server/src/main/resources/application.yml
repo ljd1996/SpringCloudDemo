@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ljd1996/Spring-Config
+          search-paths: /t/
+#          username: ljd1996
+#          password:
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+server:
+  port: 9990

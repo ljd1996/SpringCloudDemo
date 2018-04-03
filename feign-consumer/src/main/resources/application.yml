@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: feign-consumer     #为服务命名
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+server:
+  port: 9111
+feign:
+  hystrix:
+    enabled: true
+#feign:
+#  hystrix:
+#    enabled: true

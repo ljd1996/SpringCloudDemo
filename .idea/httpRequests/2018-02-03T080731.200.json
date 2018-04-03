@@ -1,0 +1,17 @@
+{
+  "name": "t",
+  "profiles": [
+    "application"
+  ],
+  "label": "master",
+  "version": "b6cd5a1cf68f9d7df5fc3fcbc35c14369f557248",
+  "state": null,
+  "propertySources": [
+    {
+      "name": "https://github.com/ljd1996/Spring-Config/t/application.yml",
+      "source": {
+        "demo": "demo1"
+      }
+    }
+  ]
+}

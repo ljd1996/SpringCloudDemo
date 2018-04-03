@@ -1,0 +1,8 @@
+{
+  "timestamp": 1517659628647,
+  "status": 406,
+  "error": "Not Acceptable",
+  "exception": "org.springframework.web.HttpMediaTypeNotAcceptableException",
+  "message": "Could not find acceptable representation",
+  "path": "/t/application.yml"
+}

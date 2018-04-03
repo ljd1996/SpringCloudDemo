@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud" />
+        <module name="config-client" />
+        <module name="config-server" />
+        <module name="eureka-client" />
+        <module name="eureka-server" />
+        <module name="feign-consumer" />
+        <module name="hello-service-api" />
+        <module name="hystrix-dashboard" />
+        <module name="hystrix-demo" />
+        <module name="ribbon-consumer" />
+        <module name="turbine-dashboard" />
+        <module name="zuul-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud" target="1.5" />
+      <module name="config-client" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="eureka-client" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="feign-consumer" target="1.8" />
+      <module name="hello-service-api" target="1.8" />
+      <module name="hystrix-dashboard" target="1.8" />
+      <module name="hystrix-demo" target="1.8" />
+      <module name="ribbon-consumer" target="1.8" />
+      <module name="turbine-dashboard" target="1.8" />
+      <module name="zuul-gateway" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

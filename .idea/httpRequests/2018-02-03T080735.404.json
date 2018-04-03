@@ -1,0 +1,8 @@
+{
+  "timestamp": 1517659655514,
+  "status": 404,
+  "error": "Not Found",
+  "exception": "org.springframework.cloud.config.server.environment.NoSuchLabelException",
+  "message": "No such label: maste",
+  "path": "/t/application/maste"
+}

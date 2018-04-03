@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: turbine     #为服务命名
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+server:
+  port: 9999
+turbine:
+  app-config: hystrix-demo
+  cluster-name-expression: "default"
+  combine-host-port: true
+management:
+  port: 10000
